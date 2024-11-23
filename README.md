@@ -1,1 +1,5 @@
-# NegLoRA
+# NegLoRA: Low Rank Adaptations for Effective Machine Unlearning 
+---
+
+## Abstract
+ Growing privacy regulations have made machine unlearn- ing an essential process for removing the influence of spe- cific data points from trained models. While retraining on the remaining dataset is a straightforward solution, it incurs high computational costs and requires access to the retained dataset, which may not always be practical. Existing unlearn- ing methods, such as gradient ascent, often suffer from unsta- ble optimization and catastrophic forgetting. Recent studies have demonstrated that by training fewer parameters, Low- Rank Adaptation (LoRA) constrains updates to prevent sig- nificant divergence from the base model, effectively miti- gating catastrophic forgetting. Building on this insight, we propose a novel framework, NegLoRA that leverages LoRA to enhance the efficiency and effectiveness of machine un- learning. Experimental results across various metrics indicate that NegLoRA outperforms baseline methods in unlearning accuracy, generalization, and robustness to inference attacks while being computationally efficient.
